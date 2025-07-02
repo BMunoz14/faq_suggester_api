@@ -1,0 +1,98 @@
+[
+  {
+    "query": "¿Cómo agendo una cita médica en mi EPS?",
+    "suggestion": "Entra al portal de tu EPS, selecciona sede y horario."
+  },
+  {
+    "query": "Quiero sacar cita médica EPS",
+    "suggestion": "Accede al portal de tu EPS, escoge fecha y hora."
+  },
+  {
+    "query": "Agendar cita con médico de EPS",
+    "suggestion": "Visita la web de tu EPS, elige médico y turno."
+  },
+  {
+    "query": "¿Dónde vacuno a mi bebé?",
+    "suggestion": "Regístrate en el portal de salud y ve al centro asignado."
+  },
+  {
+    "query": "Horario de vacunación infantil",
+    "suggestion": "Consulta fechas y horarios en el sitio de salud municipal."
+  },
+  {
+    "query": "Programar vacuna para niño",
+    "suggestion": "Entra al portal de salud, elige vacuna y centro."
+  },
+  {
+    "query": "¿Cómo veo mis resultados de laboratorio?",
+    "suggestion": "Ingresa al portal, usa tu código de autorización."
+  },
+  {
+    "query": "Descargar examen de sangre online",
+    "suggestion": "Accede al sitio web, introduce tu código y descarga."
+  },
+  {
+    "query": "Ver resultados de laboratorio EPS",
+    "suggestion": "Entra al portal de tu EPS, busca la sección de exámenes."
+  },
+  {
+    "query": "¿Dónde hay farmacia 24 horas?",
+    "suggestion": "Revisa la lista de farmacias 24 h en la web de salud."
+  },
+  {
+    "query": "Farmacias de turno cerca de mí",
+    "suggestion": "Consulta el mapa de farmacias 24 h en el portal local."
+  },
+  {
+    "query": "Farmacia abierta madrugada",
+    "suggestion": "Usa el filtro ‘24 h’ en la web de salud municipal."
+  },
+  {
+    "query": "¿Qué hago en caso de emergencia?",
+    "suggestion": "Dirígete a urgencias del hospital más cercano."
+  },
+  {
+    "query": "Emergencia médica cerca",
+    "suggestion": "Ve al servicio de urgencias del centro hospitalario local."
+  },
+  {
+    "query": "Atención urgente salud",
+    "suggestion": "Acude de inmediato a urgencias en el hospital asignado."
+  },
+  {
+    "query": "¿Cómo pido cita de psicología comunitaria?",
+    "suggestion": "Llama al Centro de Salud Mental y agenda tu cita."
+  },
+  {
+    "query": "Agendar terapia psicológica gratuita",
+    "suggestion": "Comunícate al teléfono del centro y confirma tu cita."
+  },
+  {
+    "query": "Psicólogo en mi barrio",
+    "suggestion": "Revisa la oferta de salud mental en el portal local."
+  },
+  {
+    "query": "¿Cómo pido consejo nutricional?",
+    "suggestion": "Entra al portal y agenda sesión con nutricionista."
+  },
+  {
+    "query": "Asesoría dieta saludable",
+    "suggestion": "Selecciona nutricionista y fecha en el sistema en línea."
+  },
+  {
+    "query": "Cita con nutricionista EPS",
+    "suggestion": "Visita el portal de tu EPS, busca nutrición y agenda."
+  },
+  {
+    "query": "¿Cómo solicito teleconsulta?",
+    "suggestion": "Descarga la app de tu EPS y elige opción de teleconsulta."
+  },
+  {
+    "query": "Consulta virtual EPS",
+    "suggestion": "Accede a la app móvil, selecciona médico y hora."
+  },
+  {
+    "query": "Atención médica online",
+    "suggestion": "Usa la plataforma virtual de tu EPS para agendar cita."
+  }
+]

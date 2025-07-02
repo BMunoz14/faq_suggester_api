@@ -1,0 +1,74 @@
+[
+  {
+    "query": "¿Cómo pido cita de psicología comunitaria?",
+    "suggestion": "Llama al Centro de Salud Mental y agenda tu cita.",
+    "next_question": "¿Qué te parece revisar la oferta de salud mental en el portal local?",
+    "timestamp": "2025-07-02T00:35:42.877482"
+  },
+  {
+    "query": "¿Dónde hay farmacia 24 horas?",
+    "suggestion": "Puedes encontrar farmacias 24 horas revisando la web de salud, consultando el mapa en el portal local o usando el filtro '24 h' en la web de salud municipal.",
+    "next_question": "¿Podrías darme el número de teléfono del Centro de Salud Mental?",
+    "timestamp": "2025-07-02T00:36:50.875991"
+  },
+  {
+    "query": "¿Cómo veo mis resultados de laboratorio?",
+    "suggestion": "Ingresa al portal de tu EPS, busca la sección de exámenes usando tu código de autorización.",
+    "next_question": "¿Podrías indicarme cómo acceder a ese portal?",
+    "timestamp": "2025-07-02T01:32:31.070148"
+  },
+  {
+    "query": "¿Dónde hay farmacia 24 horas?",
+    "suggestion": "Puedes encontrar farmacias 24 horas revisando la web de salud, consultando el mapa de farmacias 24 h en el portal local o usando el filtro '24 h' en la web de salud municipal.",
+    "next_question": "¿Cuál es el número del Centro de Salud Mental?",
+    "timestamp": "2025-07-02T01:33:06.931555"
+  },
+  {
+    "query": "¿Dónde hay farmacia 24 horas?",
+    "suggestion": "Puedes encontrar farmacias 24 horas revisando la web de salud, consultando el mapa en el portal local o usando el filtro '24 h' en la web de salud municipal.",
+    "next_question": "¿Cuál es el portal local?",
+    "timestamp": "2025-07-02T02:04:46.720922"
+  },
+  {
+    "query": "¿Dónde vacuno a mi bebé?",
+    "suggestion": "Para vacunar a tu bebé, regístrate en el portal de salud y ve al centro asignado.",
+    "next_question": "¿Qué tipo de exámenes de laboratorio te gustaría ver?",
+    "timestamp": "2025-07-02T02:05:36.547348"
+  },
+  {
+    "query": "¿Cómo veo mis resultados de laboratorio?",
+    "suggestion": "Ingresa al portal de tu EPS, busca la sección de exámenes usando tu código de autorización.",
+    "next_question": "¿Cómo accedo al portal de salud?",
+    "timestamp": "2025-07-02T02:10:39.624073"
+  },
+  {
+    "query": "¿Cómo pido cita de psicología comunitaria?",
+    "suggestion": "Llama al Centro de Salud Mental y agenda tu cita.",
+    "next_question": "¿Cómo puedo acceder a servicios de salud mental?",
+    "timestamp": "2025-07-02T02:12:24.233202"
+  },
+  {
+    "query": "¿Cómo pido consejo nutricional?",
+    "suggestion": "Puedes pedir consejo nutricional entrando al portal de tu EPS y buscando la opción de nutrición para agendar una cita.",
+    "next_question": "¿Cómo agenda una cita con un nutricionista?",
+    "timestamp": "2025-07-02T02:14:48.336879"
+  },
+  {
+    "query": "Agendar cita con médico de EPS",
+    "suggestion": "Para agendar una cita con tu médico de EPS, visita la web de tu EPS, accede al portal o entra al portal para seleccionar fecha, hora, sede y horario.",
+    "next_question": "¿Hay alguna opción para pedir cita de nutrición por teléfono?",
+    "timestamp": "2025-07-02T02:16:21.897018"
+  },
+  {
+    "query": "¿Cómo veo mis resultados de laboratorio?",
+    "suggestion": "Ingresa al portal de tu EPS, busca la sección de exámenes usando tu código de autorización.",
+    "next_question": "¿Qué EPS tienes?",
+    "timestamp": "2025-07-02T02:27:35.689517"
+  },
+  {
+    "query": "¿Cómo veo mis resultados de laboratorio?",
+    "suggestion": "Para ver tus resultados de laboratorio, ingresa al portal de tu EPS y busca la sección de exámenes.",
+    "next_question": "¿Cómo encuentro mi código de autorización?",
+    "timestamp": "2025-07-02T02:30:05.713398"
+  }
+]

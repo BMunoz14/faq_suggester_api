@@ -1,0 +1,6 @@
+# --- filepath: .gitignore ---
+__pycache__/
+*.pyc
+.env
+.venv/
+data/vectorstore/

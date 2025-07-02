@@ -1,0 +1,27 @@
+services:
+  api:
+    build: .
+    container_name: faq-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data           # Persistencia faq.json / history.json
+      - ./chroma_langchain_db:/app/chroma_langchain_db
+    depends_on:
+      - ollama
+    environment:
+      # Pueden sobre-escribirse en un .env
+      EMBEDDINGS_MODEL: "nomic-embed-text"
+      LLM_MODEL: "gemma3:12b"
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: unless-stopped
+    volumes:
+      - ollama_models:/root/.ollama
+    ports:
+      - "11434:11434"
+
+volumes:
+  ollama_models: {}

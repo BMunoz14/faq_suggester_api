@@ -1,0 +1,14 @@
+#  Dependencias mínimas (probadas 2025-07).  Si alguna versiona más reciente
+#  rompe compatibilidad, fija la versión exacta como aquí.
+
+fastapi==0.115.4            # framework web
+uvicorn[standard]==0.35.0    # servidor ASGI + reload
+chromadb==1.0.13             # vector store local
+langchain==0.3.26            # orquestador LLM
+langchain-ollama==0.3.3      # integración Ollama
+ollama==0.5.1                # cliente Python → /api/embeddings
+httpx==0.28.1                # cliente HTTP (opcional)
+pydantic==2.11.7             # validación
+pydantic-settings==2.10.1    # gestión de variables de entorno
+python-dotenv==1.1.1         # cargar .env
+filelock==3.18.0             # bloqueo de history.json
