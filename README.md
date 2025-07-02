@@ -1,25 +1,50 @@
-# --- filepath: README.md ---
-# FAQ Suggester API
+# FAQ Suggester API 🤖💬  
+_Muestra sugerencias (suggest) de la base de conocimientos a partir de una pregunta (query)_
 
-**Objetivo.** Proveer sugerencias automáticas a asesores de una alcaldía basadas en
-preguntas frecuentes, con persistencia de historial y capacidad de crecer la base de
-conocimiento.
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115.x-009688?logo=fastapi&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-1.0.x-673ab7)
+![Ollama](https://img.shields.io/badge/Ollama-local-blue)
+![Licence](https://img.shields.io/badge/Licence-MIT-green)
 
-## Ejecutar en local
-
-La aplicación:
-
-| Componente | Tecnología | Descripción |
-|------------|------------|-------------|
-| API REST   | **FastAPI + Uvicorn** | End-points  `POST /suggest`, `GET /history`, `POST /feedback`. |
-| Búsqueda   | **ChromaDB** | Vector-store persistente con **OllamaEmbeddingFunction**. |
-| Embeddings | **nomic-embed-text** | Modelo local de Ollama para generar vectores. |
-| LLM        | **gemma3:12b** | Genera la siguiente pregunta simulada por el “ciudadano”. |
-| Persistencia ligera | `data/faq.json` y `data/history.json` | No hay base de datos externa. |
 
 ---
 
-## 1 · Demo en 3 comandos (Docker 🐳)
+## 📍 Propósito
+
+Automatizar la labor de los asesores que atienden solicitudes ciudadanas:
+
+* **Recuperación inteligente** de la mejor respuesta entre las FAQ (con embeddings semánticos).
+* **Aprendizaje activo** —si la similitud es baja— la nueva respuesta se agrega sin reiniciar el servicio.
+* **Histórico auditable** de todas las consultas y respuestas enviadas.
+* Sin base de datos externa: todo persiste en archivos JSON y un vector-store embebido.
+
+---
+
+## 🛠️ Tecnologías principales
+
+| Capa | Tecnología | Rol |
+|------|------------|-----|
+| API REST | **FastAPI** + Uvicorn | End-points `/suggest`, `/history`, `/feedback` |
+| Vector-store | **ChromaDB 1.x** | Almacena embeddings persistentes |
+| Embeddings | **`nomic-embed-text`** (Ollama) | Conversión de texto → vector |
+| LLM | **`gemma3:12b`** (Ollama) | Genera la “próxima pregunta” para pruebas |
+| UI opcional | **Streamlit** | Chat + sugerencias + tabla de historial |
+| Container | Docker & Docker Compose | Despliegue reproducible |
+
+---
+
+## 🚀 Instalación rápida
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/BMunoz14/faq_suggester_api.git
+cd faq_suggester_api
+
+---
+
+### 1 · Demo en 3 comandos (Docker 🐳)
+
 
 ```bash
 git clone https://github.com/tu-usuario/faq-suggester-api.git
