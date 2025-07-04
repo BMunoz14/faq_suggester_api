@@ -70,5 +70,59 @@
     "suggestion": "Para ver tus resultados de laboratorio, ingresa al portal de tu EPS y busca la sección de exámenes.",
     "next_question": "¿Cómo encuentro mi código de autorización?",
     "timestamp": "2025-07-02T02:30:05.713398"
+  },
+  {
+    "query": "¿Dónde vacuno a mi bebé?",
+    "suggestion": "Regístrate en el portal de salud y ve al centro asignado.",
+    "next_question": "¿Podrías indicarme cómo registrarme en el portal de salud?",
+    "timestamp": "2025-07-02T14:34:13.714957"
+  },
+  {
+    "query": "¿Cómo agendo una cita médica en mi EPS?",
+    "suggestion": "Puedes agendar una cita médica accediendo al portal de tu EPS, eligiendo sede y horario, o visitando la web de tu EPS para elegir médico y turno.",
+    "next_question": "¿Qué EPS tienes?",
+    "timestamp": "2025-07-02T14:41:15.569168"
+  },
+  {
+    "query": "¿Cómo veo mis resultados de laboratorio?",
+    "suggestion": "Ingresa al portal de tu EPS, busca la sección de exámenes usando tu código de autorización.",
+    "next_question": "¿Qué debo hacer si no tengo acceso al portal de mi EPS?",
+    "timestamp": "2025-07-02T15:02:01.643717"
+  },
+  {
+    "query": "¿Qué hago en caso de emergencia?",
+    "suggestion": "En caso de emergencia, dirígete a urgencias del hospital más cercano o al servicio de urgencias del centro hospitalario local.",
+    "next_question": "¿Qué debo hacer si necesito atención médica urgente?",
+    "timestamp": "2025-07-02T15:04:03.147923"
+  },
+  {
+    "query": "¿Qué hago en caso de emergencia?",
+    "suggestion": "En caso de emergencia, dirígete a urgencias del hospital más cercano.",
+    "next_question": "¿Cómo sé cuál es el hospital asignado?",
+    "timestamp": "2025-07-02T15:06:13.946034"
+  },
+  {
+    "query": "¿Cómo agendo una cita médica en mi EPS?",
+    "suggestion": "Para agendar una cita médica en tu EPS, puedes entrar al portal, visitar la web o acceder al portal para escoger fecha, hora, médico o turno.",
+    "next_question": "¿Puedo agendar una cita a través del portal de mi EPS?",
+    "timestamp": "2025-07-03T23:07:32.132470"
+  },
+  {
+    "query": "¿Cómo agendo una cita médica en mi EPS?",
+    "suggestion": "Para agendar una cita médica en tu EPS, puedes acceder al portal de tu EPS, visitar su web, o seleccionar sede y horario a través del portal.",
+    "next_question": "¿Hay alguna diferencia entre el portal web y la aplicación móvil de mi EPS para agendar citas?",
+    "timestamp": "2025-07-03T23:16:24.843623"
+  },
+  {
+    "query": "¿Cómo agendo una cita médica en mi EPS?",
+    "suggestion": "Para agendar una cita médica en tu EPS, puedes entrar al portal, visitar la web o acceder al portal para elegir fecha, hora, médico o turno.",
+    "next_question": "¿Qué información necesito para acceder al portal de mi EPS?",
+    "timestamp": "2025-07-03T23:17:25.258108"
+  },
+  {
+    "query": "¿Qué hago en caso de emergencia?",
+    "suggestion": "En caso de emergencia, dirígete a urgencias del hospital más cercano.",
+    "next_question": "¿Necesitas atención de urgencias?",
+    "timestamp": "2025-07-03T23:18:58.166706"
   }
 ]

@@ -4,6 +4,7 @@ SHELL := /usr/bin/env bash
 APP = app.main:app
 UV := uv run uvicorn $(APP) --reload
 PYTEST := python -m unittest discover -s tests -v
+STREAM := uv run streamlit run ui/streamlit_app.py
 
 .PHONY: help dev test docker up down logs fmt
 
@@ -17,8 +18,8 @@ dev:       ## Ejecutar API en modo desarrollo (hot-reload)
 test:      ## Ejecutar suite de tests (unittest)
 	$(PYTEST)
 
-ui:
-	uv run streamlit run ui/streamlit_app.py
+web:       ## Ejecutar Streamlit UI
+	$(STREAM)
 
 docker:    ## Construir imagen local faq-api:latest
 	docker build -t faq-api .
