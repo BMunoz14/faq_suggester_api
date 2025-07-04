@@ -139,13 +139,13 @@ Instalar dependencias con **uv**
 ```bash
 uv sync
 ```
-Ejecuta desde la terminal ubicándose en el proyecto
+Ejecuta desde la terminal ubicándose en el proyecto **Para iniciar la API REST**
 ```bash
-make dev     # Para iniciar la API REST
+make dev
 ```
-Opcional si quieres probar desde el navegador en `http://localhost:8501/`, abre otra terminal en el proyecto y ejecuta
+Opcional si quieres probar desde el navegador en `http://localhost:8501/`, abre otra terminal en el proyecto y ejecuta **Para probar la API desde Streamlit**
 ```bash
-make web     # Probar API desde Streamlit
+make web
 ```
 ![image](https://github.com/user-attachments/assets/aeb8c7da-cc19-4954-ae69-02e6c6ab114b)
 
